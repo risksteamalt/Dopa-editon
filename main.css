@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap');
 
+#stickman-section .stickman-links { display: flex; gap: .5rem; flex-wrap: wrap; margin-bottom: 1rem; }
+#stickman-section .stickman-link { padding:.35rem .7rem; border:1px solid #888; border-radius:6px; text-decoration:none; color:inherit; }
+#stickman-section .stickman-link:hover { background:#222; }
+#stage svg { display:block; }
+.stickman-label { font-size:.9rem; opacity:.75; }
+
+
 body {
     background-color: #1b1b1b;
     font-family: 'Montserrat', sans-serif;
